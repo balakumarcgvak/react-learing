@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.crud_form .input-field {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.crud_form .button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.crud_form .button:hover {
+    background-color: #45a049;
+}
+
+.crud_form .item-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.crud_form .item {
+    margin-bottom: 10px;
+}
+
+.crud_form .edit-button,
+.crud_form .delete-button {
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #4caf50;
+}
+
+.crud_form .delete-button:hover {
+    color: #f44336;
+}
